@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "precommit": "npm run dist && git add --all",
+    "precommit": "npm test",
     "patch": "mversion patch -mn",
     "minor": "mversion minor -mn",
     "major": "mversion major -mn"
