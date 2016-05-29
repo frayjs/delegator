@@ -8,6 +8,9 @@
   },
   "license": "MIT",
   "main": "src/delegator.js",
+  "dependencies": {
+    "global": "^4.3.0"
+  },
   "devDependencies": {
     "del": "*",
     "gulp": "*",
@@ -16,7 +19,7 @@
     "mversion": "*"
   },
   "scripts": {
-    "test":"gulp test",
+    "test": "gulp test",
     "precommit": "npm run dist && git add --all",
     "patch": "mversion patch -mn",
     "minor": "mversion minor -mn",
